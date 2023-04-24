@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Book Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<h1>Book Recommendation Webpage</h1>
+    <div class="introductionOfPage">
+        <h2>Book Recommendations Introduction</h2>
+<h3> This book recommendation web, is a personalized and diverse web
+     for readers to share their reading experiences and 
+     get new recommendation of book readers, readers can search based on the book title and 
+     books recommendations are regularly updated and customized according to user search, 
+     making it a good tool for avid readers.</h3>
+     <h3>Choose one of the options below to see the description over those titles.</h3>
+     <div class="images">
+        <table>
+            <tr>
+              <td>
+                <div class="book-info">
+                  <img id="book1" src="./img/TheMidnighLibraryBook.jpeg" alt="The Midnight Library">
+                  <p>In The Midnight Library, Matt Haig combines subjects I love in books:
+                     life and death concerns, regrets, love, complicated relationships, family...
+                      and, of course, there's a library!
+
+                    I really like how Haig achieves to write what I consider 
+                    being self-help books with magic and a good storyline.</p>
+                </div>
+              </td>
+              <td>
+                <div class="book-info">
+                  <img id="book2" src="./img/theDesignBook.jpeg" alt="The Design Of Everyday Things">
+                  <p>After reading this you will never look at any man-made object the same. 
+                    You will question everything from doors to tea kettles to the most sophisticated 
+                    computer program. The next time you fumble with an answering machine, web page, or 
+                    light switch you will think back to the lessons from this book. It is almost liberating once 
+                    you can see beyond the design of everyday things.</p>
+                </div>
+              </td>
+              <td>
+                <div class="book-info">
+                  <img id="book3" src="./img/cleanCodebook.jpeg" alt="Clean Code">
+                  <p>If every developer read this with an open mind, 
+                    took notes, and implemented even a few of the disciplines, 
+                    we would all be better off. Clean code is incredibly hard to come 
+                    by which is a shame because that just indicates how unprofessional 
+                    the software industry really is. This stuff isn't hard, it just requires 
+                    you to have the discipline to spend a few extra minutes writing a second or 
+                    third draft of your code with a few things in mind. We need more developers to 
+                    give a shit about things like this so that the codebases we work on can be more 
+                    maintainable, readable, testable, and flexible.
+                </p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="book-info">
+                  <img id="book4" src="./img/dopaminBook.webp" alt="Dopamine">
+                  <p>I had trouble putting this book down once I started and there’s 
+                    something anyone can learn from this book about addiction crisis. 
+                    As we live in a era of overconsumption and instant gratification, this 
+                    book explains the personal and societal price of being ruled by the next fix 
+                    and how to manage it.</p>
+                </div>
+              </td>
+              <td>
+                <div class="book-info">
+                  <img id="book5" src="./img/aStudyInScarlet.jpeg" alt="A Study In Scarlet">
+                  <p>Arthur Conan Doyle first introduced Sherlock Holmes in this book. 
+                    He created a world-famous character that people read even in the 21st century. 
+                    There is a total of four parts in the series. This book grabbed my interest, it is 
+                    definitely a must read.</p>
+                </div>
+              </td>
+              <td>
+                <div class="book-info">
+                  <img id="book6" src="./img/underTheKnife.jpeg" alt="Under The Knife">
+                  <p>Not only does this book describe the technicalities of each surgery, 
+                    but Arnold van de Laar uses recognizable historical moments 
+                    (e.g. JKF's assassination, the death of Harry Houdini) to illustrate their cultural 
+                    importance as well as their significance in the medical field. I learned so much 
+                    reading this book, and I definitely want a physical copy for my shelves. </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+          
+      </div>
+</div>
+    <div class="post-recommendation">
+      <h2>Post a Book Recommendation Form</h2>
+      <form>
+        <label for="book-title">Book Title:</label>
+        <input type="text" id="book-title" name="book-title" required>
+        
+        <label for="book-author">Author:</label>
+        <input type="text" id="book-author" name="book-author" required> 
+        
+        <label for="book-description">Description/Review box:</label>
+        <textarea id="book-description" name="book-description" required></textarea>
+        
+        <input type="submit" value="Post/Add Recommendation">
+      </form>
+    </div>
+
+    <div class="search-recommendations">
+      <h2>Search for Book Recommendations: By Title</h2>
+      <input type="search" id="search-input" placeholder="Book Search...">
+      <div id="book-list"></div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

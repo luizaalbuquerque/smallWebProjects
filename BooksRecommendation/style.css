@@ -1,0 +1,73 @@
+  
+  h1 {
+    font-size: 28px;
+    color:#fff;
+  }
+  main {
+    padding: 20px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("bookgif.gif");
+    padding: 20px;
+    
+  }
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  .introductionOfPage{
+    text-align: justify;
+  }
+  .post-recommendation, .search-recommendations, .introductionOfPage {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+  }
+  img{
+    padding: 5px;
+    width: 150px;
+    margin-left: 50px;
+
+  }
+
+  .post-recommendation form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-recommendation label, .post-recommendation input, .post-recommendation textarea {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .post-recommendation label {
+    font-weight: bold;
+  }
+  
+  .post-recommendation input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #27a0c5;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-recommendations input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+
+  }
